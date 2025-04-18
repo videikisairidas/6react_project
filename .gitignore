@@ -43,7 +43,8 @@ BackEndApi/secrets.json
 # But not these folders:
 !BackEndApi/DTO/*
 !BackEndApi/DTO/**/*
-!BackEndApi/Controllers/
+!BackEndApi/Controllers/*
+!BackEndApi/Controllers/**/*
 !BackEndApi/DTO/
 !BackEndApi/Models/
 # If DbContext is in BackEndApi/Data/, keep that too:
