@@ -1,0 +1,73 @@
+#########################
+# Global ignores
+#########################
+
+# Node / Vite / React
+**/node_modules/
+**/dist/
+**/.env
+**/.env.*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+#########################
+# .NET / C# - BackEndApi
+#########################
+BackEndApi/bin/
+BackEndApi/obj/
+BackEndApi/*.user
+BackEndApi/*.suo
+BackEndApi/*.userosscache
+BackEndApi/*.sln.docstates
+BackEndApi/.vs/
+BackEndApi/.vscode/
+
+# Ignore everything in BackEndApi folder
+BackEndApi/*
+BackEndApi/**/
+
+# Ignore secrets and config files
+# Ignore secrets and config files
+BackEndApi/appsettings.json
+BackEndApi/appsettings.*.json
+BackEndApi/secrets.json
+
+# But not these folders:
+!BackEndApi/Controllers/
+!BackEndApi/DTO/
+!BackEndApi/Models/
+# If DbContext is in BackEndApi/Data/, keep that too:
+!BackEndApi/Data/
+!BackEndApi/Data/*.cs
+
+
+
+# Logs
+#########################
+# Vite - dashboard-admin
+#########################
+dashboard-admin/.vite/
+dashboard-admin/.next/
+dashboard-admin/.cache/
+dashboard-admin/build/
+dashboard-admin/public/build/
+dashboard-admin/coverage/
+
+#########################
+# Vite - FrontEnd-user
+#########################
+
+FrontEnd-user/.vite/
+FrontEnd-user/.next/
+FrontEnd-user/.cache/
+FrontEnd-user/build/
+FrontEnd-user/public/build/
+FrontEnd-user/coverage/
