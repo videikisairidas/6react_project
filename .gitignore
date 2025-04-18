@@ -41,6 +41,7 @@ BackEndApi/appsettings.*.json
 BackEndApi/secrets.json
 
 # But not these folders:
+BackEndApi/DTO/*
 !BackEndApi/Controllers/
 !BackEndApi/DTO/
 !BackEndApi/Models/
