@@ -41,11 +41,11 @@ BackEndApi/appsettings.*.json
 BackEndApi/secrets.json
 
 # But not these folders:
-!BackEndApi/Controllers/
-!BackEndApi/DTO/
-!BackEndApi/Models/
+!BackEndApi/Controllers/*
+!BackEndApi/DTO/*
+!BackEndApi/Models/*
 # If DbContext is in BackEndApi/Data/, keep that too:
-!BackEndApi/Data/
+!BackEndApi/Data/*
 !BackEndApi/Data/*.cs
 
 
